@@ -1,0 +1,21 @@
+div {
+    background-color: aquamarine;
+    padding: 1px;
+    border: 1px solid #ccc;
+    position: sticky;
+    top: -1px;
+}
+
+section {
+    margin: 4px auto;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: '\1F4F1';
+}
